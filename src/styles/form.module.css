@@ -1,0 +1,129 @@
+.formBox{
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.formBox button{
+    padding: 8px 10px !important;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.formBox h3{
+    color: #4f2060;
+    text-align: justify;
+}
+.formBox h3 span{
+    display: block;
+    color: #eb5875;
+    text-align: center;
+}
+
+.formDiv{
+    margin-top: 25px;
+}
+.formDiv input{
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 8px 10px;
+    font-weight: 500;
+    color: rgb(141, 139, 139);
+    border-radius: 7px;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+.formDiv input[type=checkbox]{
+    width: inherit;
+}
+
+
+.checkDiv {
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkDiv input{
+    cursor: pointer;
+}
+
+.checkDiv label{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: rgb(141, 139, 139);
+    font-weight: 500;
+    
+}
+
+.checkDiv label a{
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.inputDiv{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.inputDiv img{
+    position: absolute;
+    right:10px;
+}
+
+.links{
+    position: relative;
+    text-align: center;
+    font-size:0.8rem;
+    color: rgb(141, 139, 139);
+    font-weight: 500;
+}
+
+
+.links span::before{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background:rgba(211, 209, 209, 0.263); 
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.links span::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background: rgba(211, 209, 209, 0.263);
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+
+.socialLink{
+    text-align: center;
+    
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+  margin:10px auto 10px auto;
+}
+
+.socialLink img{
+  width: 50px;
+  
+}
+
+
+@media only screen and (max-width:768px){
+    .formBox{
+        width:100%;
+    }
+}

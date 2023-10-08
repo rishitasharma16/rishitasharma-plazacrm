@@ -1,0 +1,313 @@
+.hero {
+  min-height: 105vh;
+  background: url("../assets/Background-Image.png");
+  background-size: 100% 100%;
+  padding-top: 100px;
+
+}
+
+.banner {
+  padding-top: 7%;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerText {
+  width: 40%;
+  color: #ffff;
+}
+
+.bannerText h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.bannerText h1 span {
+  font-weight: bold;
+}
+
+.bannerText p {
+  padding-right: 15%;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.bannerImg {
+  width: 60%;
+  text-align: right;
+}
+
+.bannerImg img {
+  width: 85%;
+}
+
+/* ---------------------------section 2 --------------------------------------- */
+
+.section2 {
+  min-height: 90vh;
+  background: #eef4fd;
+  margin-bottom: 10vh;
+}
+
+.trialArea {
+  width: 100%;
+  height: 95%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trialImg {
+  width: 60%;
+  height: 90%;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+}
+.trialImg img {
+  width: 100%;
+}
+.trailForm {
+  width: 40%;
+}
+
+/* -------------------------------------section 3---- */
+
+.section3 {
+  min-height: 90vh;
+  width: 100%;
+  background: #eef4fd;
+}
+.solutionsArea {
+  text-align: center;
+}
+.solutionsArea h3 {
+  color: #000000a8;
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.solutionsArea p {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.562);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cardContainer {
+  max-width: 90%;
+  height: auto;
+  margin: 10% auto 0 auto;
+}
+
+.cardWrapper {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------------------------------------section 4-------------------- */
+
+.section4 {
+  min-height: 50vh;
+  background: #eb5875;
+}
+.digitalText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 7% 0;
+}
+.digitalText h2 span {
+  display: block;
+  text-align: center;
+}
+.digitalText h2 {
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.digitalText button {
+  border-radius: 5px;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+.paraText {
+  margin: 20px 0;
+  letter-spacing: 1px;
+  width: 68%;
+  text-align: center;
+}
+
+/* ------------------------------------section 5-------------- */
+.section5 {
+  min-height: 85vh;
+  background: #eef4fd;
+}
+
+.features {
+  height: 85vh;
+  width: 100%;
+  background: url("../assets/Selling-Easier.png");
+  background-position: right;
+  background-size: 70% 85%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.featuresText {
+  width: 40%;
+  height: 70%;
+}
+
+.featuresText h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #191919d2;
+}
+
+.featuresText p {
+  margin: 20px 0;
+  color: #00000092;
+  font-weight: 500;
+  
+}
+
+.list{
+  padding: 0;
+}
+
+.list li {
+  letter-spacing: 1px;
+  color: #00000092;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom:5px;
+}
+
+
+
+.list li::before {
+  content: "";
+   height: 0.9rem;
+  margin-top: 0.6rem;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background-image: url("../assets/tick.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+
+.featuresText button{
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-weight: 500;
+  
+}
+
+@media only screen and (max-width:768px){
+  .hero {
+    min-height: fit-content;
+    background-size: cover;
+    padding-bottom:5%;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .bannerText{
+    width: 100%;
+  }
+
+  .bannerText h1{
+    font-size: 2.5rem;
+  }
+
+  .bannerText p {
+    padding-right: 0%;
+  }
+
+  .bannerImg {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .bannerImg img {
+    width: 90%;
+    margin: 10% 0;
+  }
+
+  /* section2 */
+  .trialArea {
+    flex-direction: column;
+    padding: 5%;
+  }
+  .trialImg {
+    width: 100%;
+    order: 2;
+    margin-top:5%;
+  }
+  .trialImg img {
+    width: 100%;
+  }
+  .trailForm {
+    width: 100%;
+    order: 1;
+  }
+
+  /* section3 */
+  .cardContainer {
+    max-width: 90%;
+    height: auto;
+    margin: 10% auto 0 auto;
+  }
+  
+  .cardWrapper {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  /* section4 */
+  .paraText {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .digitalText {
+    padding: 5%;
+  }
+
+  /* section5 */
+  .section5 {
+    min-height: fit-content;
+    padding: 20px 0;
+  }
+  
+  .features {
+    height: fit-content;
+    padding: 5%; 
+    background: none;
+    
+  }
+
+  .featuresText {
+    width: 100%;
+  }
+
+  
+}

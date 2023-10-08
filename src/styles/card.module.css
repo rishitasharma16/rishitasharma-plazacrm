@@ -1,0 +1,36 @@
+.card{
+    width: 300px;
+    height: 260px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p{
+       font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0 5px;
+    font-weight: 500;
+    color:#0000007f;
+
+
+}
+
+.card h5{
+    font-weight: bold;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.card img{
+    width: 35%;
+}
+
+@media only screen and (max-width:768px){
+    .card{
+        margin-bottom:30px;
+    }
+}

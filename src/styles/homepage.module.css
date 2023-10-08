@@ -401,6 +401,10 @@
     padding: 5%;
   }
 
+  .digitalText h2{
+    font-size: 1.5rem;
+  }
+
   /* section5 */
   .section5 {
     min-height: fit-content;

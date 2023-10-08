@@ -219,6 +219,113 @@
   
 }
 
+
+/* ------------------------1366-------------------- */
+@media only screen and (max-width:1366px){
+  .hero {
+    min-height: fit-content;
+    background-size: cover;
+    padding-bottom:14%;
+  }
+
+  .banner{
+    width: 100%;
+  }
+
+  .bannerText{
+    width: 35%;
+  }
+
+  .bannerText h1{
+    font-size: 2.5rem;
+  }
+
+  .bannerText p {
+    padding-right: 0%;
+  }
+
+  .bannerImg {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .bannerImg img {
+    width: 100%;
+    margin:0;
+  }
+
+  /* section2 */
+  
+  .trialImg {
+    width: 110%;
+  }
+
+  .trialImg img {
+    width: 100%;
+  }
+  .trailForm {
+    width: 100%;
+  
+  }
+
+  /* section3 */
+  .cardContainer {
+    max-width: 90%;
+    height: auto;
+    margin: 10% auto 0 7%;
+  }
+  
+  .cardWrapper {
+    width: 100%;
+  }
+
+  /* section4 */
+  .digitalText h2{
+    font-size: 1.7rem;
+  }
+  .paraText {
+    margin: 10px 0;
+    width: 70%;
+  }
+  .paraText p{
+    font-size: 0.9rem;
+  }
+  .digitalText button {
+    font-size: 0.7rem;
+    padding: 10px 15px;
+  }
+  
+  /* section5 */
+  .section5 {
+    min-height: fit-content;
+    padding: 20px 0;
+  }
+  
+  .features {
+    height: fit-content;
+    padding: 5%; 
+    
+    
+  }
+
+  .featuresText {
+    width: 45%;
+  }
+
+  .featuresText h2{
+    font-size: 1.5rem;
+  }
+
+  .featuresText p{
+    font-size: 0.9rem;
+  }
+
+  .list li{
+    font-size: 0.9rem;
+  }
+}
+
+
 @media only screen and (max-width:768px){
   .hero {
     min-height: fit-content;
@@ -254,6 +361,7 @@
   }
 
   /* section2 */
+  
   .trialArea {
     flex-direction: column;
     padding: 5%;
@@ -280,6 +388,7 @@
   
   .cardWrapper {
     flex-direction: column;
+    align-items: center;
     margin: 0;
   }
 
@@ -311,3 +420,4 @@
 
   
 }
+

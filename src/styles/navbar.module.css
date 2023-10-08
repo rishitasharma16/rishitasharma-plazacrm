@@ -29,11 +29,11 @@
 }
 
 .logo {
-  width: 40%;
+  width: 30%;
 }
 
 .nav {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,6 +68,7 @@
 
 .authLinks {
   width: 40%;
+ 
 }
 
 .authLinks ul {
@@ -90,6 +91,20 @@
 
 .authLinks img {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 1366px){
+  .logo img{
+    width: 60%;
+  }
+
+  .navbarContainer{
+    min-height: 70px ;
+  }
+
+  .navbar{
+    min-height: 70px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -148,3 +163,5 @@
     padding: 10px 10px;
   }
 }
+
+
